@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LoginService.exe" size="11248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LoginService.exe" size="10736">
       <assemblyIdentity name="LoginService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tx6U+7wL77TpsT1AJrOTpb38tnik0VpvgVPtwtxfzY0=</dsig:DigestValue>
+        <dsig:DigestValue>f6J4ajThadnL3uHnYE3wXm1mHN2o+tByLbxhF2i3nHw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

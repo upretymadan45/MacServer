@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LoginService.exe" size="9712">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LoginService.exe" size="11248">
       <assemblyIdentity name="LoginService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>frvOIHlfbAsJwyE1Ia06M3EueYXgRcY2OaIB4J7Agk0=</dsig:DigestValue>
+        <dsig:DigestValue>tx6U+7wL77TpsT1AJrOTpb38tnik0VpvgVPtwtxfzY0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,6 +74,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>Fg+FORxQfts06eAcRx5qTTT9WcyZGYhaB8C03oMyMmI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Security.dll" size="8192">
+      <assemblyIdentity name="Security" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lUe45sJ4v7o5JCphyJp4m0Y+FDXY/tCZfsnjj9GZXJs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -12,6 +12,6 @@ C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.e
 C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.pdb
 C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\LoginService.exe.manifest
 C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\LoginService.application
-C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.csprojAssemblyReference.cache
 C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.exe.manifest
 C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.application
+C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.csproj.CoreCompileInputs.cache

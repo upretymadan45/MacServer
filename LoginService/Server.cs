@@ -17,7 +17,7 @@ namespace LoginService
                 UrlReservations = new UrlReservations() { CreateAutomatically = true }
             };
 
-            _host = new NancyHost(new Uri("http://localhost:1234"),new NancyBootstrapper(), hostConfigs);
+            _host = new NancyHost(new Uri("http://localhost:56650"),new NancyBootstrapper(), hostConfigs);
 
             _host.Start();
         }

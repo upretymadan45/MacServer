@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="LoginService.exe.manifest" size="5433">
+    <dependentAssembly dependencyType="install" codebase="LoginService.exe.manifest" size="6067">
       <assemblyIdentity name="LoginService.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>egd4UFX/tpB8xa7mUBr9dMe2rWPkAgcE3Y1tu+UMI+s=</dsig:DigestValue>
+        <dsig:DigestValue>SmXky06Px8IR/CY3fpPEC79+KZRngF+lkQ0U3SOZdMY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
