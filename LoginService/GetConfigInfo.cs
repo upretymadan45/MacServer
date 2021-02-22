@@ -12,6 +12,7 @@ namespace LoginService
         public GetConfigInfo()
         {
             Get("/", _ => MacFinder.GetAllInfo());
+            Get("/test", _ => MacFinder.GetMACAddressWhenOnlineOrOffline());
         }
     }
 }

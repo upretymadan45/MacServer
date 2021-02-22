@@ -1,4 +1,9 @@
+C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.csproj.CoreCompileInputs.cache
+C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.exe
+C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.pdb
 C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\LoginService.exe.config
+C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\LoginService.exe.manifest
+C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\LoginService.application
 C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\LoginService.exe
 C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\LoginService.pdb
 C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\Nancy.dll
@@ -7,11 +12,6 @@ C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\Topshelf.dll
 C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\Nancy.xml
 C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\Nancy.Hosting.Self.xml
 C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\Topshelf.xml
-C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.csproj.CopyComplete
-C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.exe
-C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.pdb
-C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\LoginService.exe.manifest
-C:\Users\msquare\source\repos\LoginService\LoginService\bin\Debug\LoginService.application
 C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.exe.manifest
 C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.application
-C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.csproj.CoreCompileInputs.cache
+C:\Users\msquare\source\repos\LoginService\LoginService\obj\Debug\LoginService.csproj.CopyComplete

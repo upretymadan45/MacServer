@@ -22,15 +22,15 @@ namespace LoginService
         {
             NetworkInterface[] nics = NetworkInterface.GetAllNetworkInterfaces();
             String sMacAddress = string.Empty;
-            foreach (NetworkInterface adapter in nics)
-            {
-                if (sMacAddress == String.Empty)// only return MAC Address from first card  
-                {
-                    IPInterfaceProperties properties = adapter.GetIPProperties();
-                    sMacAddress = adapter.GetPhysicalAddress().ToString();
-                }
-            }
-            return sMacAddress;
+
+            var wifi = nics.Where(x => x.Name.Equals("Wi-Fi",StringComparison.OrdinalIgnoreCase)).FirstOrDefault();
+            var ethernet = nics.Where(x => x.Name.Equals("Ethernet", StringComparison.OrdinalIgnoreCase)).FirstOrDefault();
+            if (wifi != null)
+                return wifi.GetPhysicalAddress().ToString();
+            if (ethernet != null)
+                return ethernet.GetPhysicalAddress().ToString();
+
+            return string.Empty;
         }
 
         public static string GetCPUId()
