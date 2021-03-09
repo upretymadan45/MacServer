@@ -1,0 +1,1 @@
+LoginService.exe install -servicename "LoginService" -displayname "Login Service" -description "This is Login Service."

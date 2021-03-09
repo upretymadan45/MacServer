@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Management;
@@ -55,9 +56,15 @@ namespace LoginService
         {
             var macAddress = GetMACAddressWhenOnlineOrOffline();
             var cpuId = GetCPUId();
-            var combinedValue = $"{macAddress}-{cpuId}";
+            
+            return JsonConvert.SerializeObject(new { 
+                mac = Encrypt(macAddress), 
+                cpuId = Encrypt(cpuId),
+                computerName = Encrypt(SystemInfo.GetComputerName()),
+            });
 
-            return Security.EncDec.Enc(combinedValue);
         }
+
+        private static string Encrypt(string value) => Security.EncDec.Enc(value);
     }
 }
