@@ -1,0 +1,17 @@
+C:\Users\msquare\source\repos\LoginService\LService\obj\Release\LService.csprojAssemblyReference.cache
+C:\Users\msquare\source\repos\LoginService\LService\obj\Release\LService.csproj.CoreCompileInputs.cache
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\LService.exe.config
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\LService.exe
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\LService.pdb
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\Nancy.dll
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\Nancy.Hosting.Self.dll
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\Newtonsoft.Json.dll
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\Security.dll
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\Topshelf.dll
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\Nancy.xml
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\Nancy.Hosting.Self.xml
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\Newtonsoft.Json.xml
+C:\Users\msquare\source\repos\LoginService\LService\bin\Release\Topshelf.xml
+C:\Users\msquare\source\repos\LoginService\LService\obj\Release\LService.csproj.CopyComplete
+C:\Users\msquare\source\repos\LoginService\LService\obj\Release\LService.exe
+C:\Users\msquare\source\repos\LoginService\LService\obj\Release\LService.pdb
