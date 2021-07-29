@@ -64,12 +64,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_24B75F9C703C288C49AE56A408BEC3C8"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_6E71E7142DFE4AE8B1B07346627734BE"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -103,6 +97,12 @@
         "OwnerKey" = "8:_E3409C33FE85D83A6743C713305EFEAF"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_24B75F9C703C288C49AE56A408BEC3C8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -121,6 +121,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -137,6 +153,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -465,7 +497,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LService Setup"
         "ProductCode" = "8:{4257B8D6-B504-4B2F-A051-1F0EB2310E52}"
-        "PackageCode" = "8:{D354CBC7-A9A3-4060-93B2-FC92EAFDF3D5}"
+        "PackageCode" = "8:{F70AB833-7018-481F-8C54-8050CCF4C48D}"
         "UpgradeCode" = "8:{91723E61-C140-4B87-978C-F4C2173BD3F4}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -986,7 +1018,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6E71E7142DFE4AE8B1B07346627734BE"
             {
-            "SourcePath" = "8:..\\LService\\obj\\Debug\\LService.exe"
+            "SourcePath" = "8:..\\LService\\obj\\Release\\LService.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_365BCE72481045F8A58324A31D3E9454"

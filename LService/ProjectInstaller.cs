@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Configuration.Install;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace LService
 {
@@ -39,6 +34,9 @@ namespace LService
 
         private void serviceInstaller1_AfterInstall(object sender, InstallEventArgs e)
         {
+            //"C:\Windows\System32\netsh.exe" http add urlacl url=http://+:56650/ user=Everyone
+            System.Diagnostics.Process.Start("netsh.exe", "http add urlacl url=http://+:56650/ user=Everyone");
+
             using (System.ServiceProcess.ServiceController serviceController = new System.ServiceProcess.ServiceController(serviceInstaller1.ServiceName))
             {
                 serviceController.Start();
